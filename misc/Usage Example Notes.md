@@ -1,5 +1,7 @@
 ## 🚦 Imagine This Real-Life Example
 
+(this file is gpt generated for users understanding). 
+
 Let’s say you run a **website** or **app** — like a shopping site.
 
 Every second, **lots of things happen**:
