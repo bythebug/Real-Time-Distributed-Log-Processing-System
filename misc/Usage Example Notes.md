@@ -1,7 +1,5 @@
 ## 🚦 Imagine This Real-Life Example
 
-(this file is gpt generated for users understanding). 
-
 Let’s say you run a **website** or **app** — like a shopping site.
 
 Every second, **lots of things happen**:
@@ -31,9 +29,9 @@ But when your app gets big — like **thousands of users per second** — you ne
 
 ---
 
-## 📊 What You Built
+## 📊 What's the project about?
 
-You built a **real-time log processing system** — kind of like a log management center that:
+Its a **real-time log processing system** — kind of like a log management center that:
 - Collects logs quickly
 - Stores them temporarily for fast access
 - Saves them to a file for later use
@@ -42,7 +40,7 @@ It’s like a **high-speed post office** for log messages!
 
 ---
 
-## 🔧 Tools You Used (Explained Simply)
+## 🔧 Tools Used (Explained Simply)
 
 ### 1. **Kafka** – Like a Super-Fast Conveyor Belt  
 Kafka is used to send messages (logs) from one place to another.  
