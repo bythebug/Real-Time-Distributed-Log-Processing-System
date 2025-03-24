@@ -2,8 +2,6 @@
 
 This project is a fault-tolerant distributed system for processing and storing real-time log events using **Kafka**, **Redis**, **Docker**, and **Python**. It is designed to handle over **500K log events/second** with low latency and high availability.
 
----
-
 ## ✅ Features
 
 - 🔁 Real-time log streaming with Kafka  
@@ -12,14 +10,10 @@ This project is a fault-tolerant distributed system for processing and storing r
 - 🐳 Docker-based deployment  
 - 📉 40% latency reduction under peak loads
 
----
-
 ## 🧰 Prerequisites
 
 - Docker installed → [Get Docker](https://docs.docker.com/get-docker/)  
 - Docker Compose installed → usually included with Docker Desktop
-
----
 
 ## 🧱 Architecture Overview
 
@@ -38,16 +32,12 @@ This project is a fault-tolerant distributed system for processing and storing r
 4. **Redis**  
    - Acts as a fast-access in-memory store for recent logs
 
----
-
 ## 🛠️ Tech Stack
 
 - **Python** for producers and consumers  
 - **Apache Kafka** for log streaming  
 - **Redis** for caching  
 - **Docker Compose** for container orchestration
-
----
 
 ## 🚀 How to Run
 
@@ -59,8 +49,6 @@ cd log_processing_system
 # 2. Start the system
 docker-compose up --build
 ```
-
----
 
 ## 📂 Project Structure
 
@@ -79,8 +67,6 @@ log_processing_system/
 └── README.md
 ```
 
----
-
 ## 🖥️ Example Output
 
 **Log in `logs.txt`:**
@@ -93,16 +79,12 @@ log_processing_system/
 Cached and wrote log: {'timestamp': 1711234567.89, 'level': 'INFO', 'message': 'Sample log message'}
 ```
 
----
-
 ## 📬 Future Improvements
 
 - [ ] Add log filtering and alerting  
 - [ ] Push logs to S3 or database  
 - [ ] Add Prometheus + Grafana for monitoring  
 - [ ] Web dashboard for log viewing
-
----
 
 ## 🧠 Why This Project?
 
@@ -112,13 +94,8 @@ This was built as a hands-on project to learn:
 - Dockerized architecture  
 - Log handling under heavy load
 
----
-
 ## 📄 License
 
 This project is open-source under the [MIT License](LICENSE).
 
----
-
-Feel free to fork, explore, and modify this project!  
-💬 Need help? Just open an issue or ask.
+Feel free to fork, explore, and modify this project! 💬 Need help? Just open an issue or ask.
